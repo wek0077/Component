@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		845DBCE6246E77AD00013D40 /* helloView.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DBCE5246E77AD00013D40 /* helloView.m */; };
 		845F4F6A246E621C0056351C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845F4F69246E621C0056351C /* AppDelegate.m */; };
 		845F4F6D246E621C0056351C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845F4F6C246E621C0056351C /* SceneDelegate.m */; };
 		845F4F70246E621C0056351C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845F4F6F246E621C0056351C /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		845DBCE4246E77AD00013D40 /* helloView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helloView.h; sourceTree = "<group>"; };
+		845DBCE5246E77AD00013D40 /* helloView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloView.m; sourceTree = "<group>"; };
 		845F4F65246E621C0056351C /* ComponentTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComponentTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845F4F68246E621C0056351C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		845F4F69246E621C0056351C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,9 +84,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		845DBCE3246E779D00013D40 /* TSBasicsKit */ = {
+			isa = PBXGroup;
+			children = (
+				845DBCE4246E77AD00013D40 /* helloView.h */,
+				845DBCE5246E77AD00013D40 /* helloView.m */,
+			);
+			path = TSBasicsKit;
+			sourceTree = "<group>";
+		};
 		845F4F5C246E621C0056351C = {
 			isa = PBXGroup;
 			children = (
+				845DBCE3246E779D00013D40 /* TSBasicsKit */,
 				845F4F67246E621C0056351C /* ComponentTest */,
 				845F4F83246E621F0056351C /* ComponentTestTests */,
 				845F4F8E246E621F0056351C /* ComponentTestUITests */,
@@ -271,6 +284,7 @@
 				845F4F6A246E621C0056351C /* AppDelegate.m in Sources */,
 				845F4F7B246E621F0056351C /* main.m in Sources */,
 				845F4F6D246E621C0056351C /* SceneDelegate.m in Sources */,
+				845DBCE6246E77AD00013D40 /* helloView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
