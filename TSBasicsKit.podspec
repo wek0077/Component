@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://gitlab.caiqr.com/renpengjie/UIBasicsKit.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "http://gitlab.caiqr.com/renpengjie/UIBasicsKit.git", :tag => "spec.version" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -116,8 +116,8 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+  # spec.framework  = "UIKit","Foundation"
+    spec.frameworks = "UIKit","Foundation"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
